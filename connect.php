@@ -8,7 +8,7 @@
 	$number = $_POST['number'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','qwerty','test');
+	$conn = new mysqli('remotemysql.com','kCg1JI3iOB','5iL4xbeOJy','kCg1JI3iOB');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
